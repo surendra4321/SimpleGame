@@ -24,6 +24,7 @@ public class Player1 {
 		System.out.println("Got Hit by Gun 1. Health is reduced by 30" + ".New heath is " + this.health);
          if(this.health == 0) {
         	 System.out.println( getName()+"  is Dead");
+        	 System.out.println(  "feed Change");
          }
 	}
   public void damagebyGun2() {
